@@ -48,7 +48,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Uriel and I'm a Senior SDET. As well as an SDET I also have experience creating web and mobile apps.
 
-  I am mainly skilled in: <mark>Web Development</mark>, <mark>Test automation</mark>, <mark>Cloud infrastructure</mark> and <mark>Quality processes</mark>.
+  I am mainly skilled in: <mark>Web development</mark>, <mark>Test automation</mark>, <mark>Cloud infrastructure</mark> and <mark>Quality processes</mark>.
 
 content:
   - title: Projects # Title for the section
