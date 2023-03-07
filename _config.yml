@@ -55,13 +55,16 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: E2E sample wdio-supertest
+        title: E2E automation for Frontend/API with Wdio & Supertest
         link: github.com/urielabin/wdio-supertest
       - layout: top-middle
-        title: E2E sample testcafe-newman
+        title: E2E automation with Cypress
+        link: github.com/urielabin/appium-test
+      - layout: top-middle
+        title: E2E automation for Frontend/API with TestCafe & Newman
         link: github.com/urielabin/testcafe-newman
       - layout: top-middle
-        title: Mobile automation sample wdio-appium
+        title: Mobile automation with Wdio & Appium
         link: github.com/urielabin/appium-test
         # link_text: Project Website
         # additional_links:
