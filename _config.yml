@@ -1,0 +1,251 @@
+# Site
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Uriel Abín
+title: Senior SDET
+email: uriel.abin@gmail.com
+# website: www.github.com/urielabin
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+github_username:  urielabin
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: urielabin
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+# - title: itsgoingto.be
+  # icon: fas fa-globe
+  # url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Uriel and I'm a Senior SDET. As well as an SDET I also have experience creating web and mobile apps.
+
+  I am mainly skilled in: <mark>Web development</mark>, <mark>Test automation</mark>, <mark>Cloud infrastructure</mark> and <mark>Quality processes</mark>.
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: E2E sample wdio-supertest
+        link: github.com/urielabin/wdio-supertest
+      - layout: top-middle
+        title: E2E sample testcafe-newman
+        link: github.com/urielabin/testcafe-newman
+      - layout: top-middle
+        title: Mobile automation sample wdio-appium
+        link: github.com/urielabin/appium-test
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+        #   # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   #   icon: fab fa-github
+        #   #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        # description: | # this will include new lines to allow paragraphs
+        #   I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Squadformers
+        link: squadformers.com
+        # link_text: boringcompany.com
+        sub_title: Senior SDET
+        caption: August 2022 - Present
+        quote: >
+          Squadformers build high-caliber product teams of engineers.
+        description: | # this will include new lines to allow paragraphs
+            Activities Performed:
+
+            • Designed and established the CI/CD pipelines.
+
+            • Created continuous testing strategy for a mobile app.
+
+      - layout: left
+        title: Bramble
+        link: bramble.live
+        # link_text: boringcompany.com
+        sub_title: Senior SDET
+        caption: April 2021 - August 2022
+        quote: >
+          Bramble lets you create bespoke virtual spaces for every kind of social gathering online
+        description: | # this will include new lines to allow paragraphs
+            Activities Performed:
+
+            • Established the E2E framework for Frontend and Backend.
+
+            • Established a framework for performance and load testing at a large scale.
+
+            • Configured and integrated CI/CD pipelines into the development process.
+
+            • Created cloud infrastructure to run tests on demand. 
+
+      - layout: left
+        title: Wizeline
+        link: wizeline.com
+        # link_text: boringcompany.com
+        sub_title: Lead SDET
+        caption: September 2015 - March 2018 / February 2020 - April 2021
+        quote: >
+          Wizeline provides end-to-end software development for Fortune 500 companies.
+        description: | # this will include new lines to allow paragraphs
+            Activities Performed:
+
+            • Led and coordinated the QA strategy across different development teams.
+
+            • Established the E2E framework for UI and API testing.
+
+            • Integrated continuous testing into CI/CD pipelines.
+
+      - layout: left
+        title: Rever
+        link: reverscore.com
+        # link_text: boringcompany.com
+        sub_title: Senior SDET
+        caption: January 2019 - February 2020 
+        quote: >
+          Rever is a Digitized Continuous Improvement Software platform. Increase Productivity, Cost-Efficiency, and Employee Engagement with the Principles of Kaizen.
+        description: | # this will include new lines to allow paragraphs
+            Activities Performed:
+
+            • Led and coordinated the QA strategy across different development teams.
+
+            • Established the E2E framework for UI and API testing.
+
+            • Integrated continuous testing into CI/CD pipelines.
+
+      - layout: left
+        title: Skycatch
+        link: skycatch.com
+        # link_text: boringcompany.com
+        sub_title: Senior SDET
+        caption: March 2018 - January 2019
+        quote: >
+          Wizeline provides end-to-end software development for Fortune 500 companies.
+        description: | # this will include new lines to allow paragraphs
+            Activities Performed:
+
+            • Created a test tutomation framework from scratch for Web, Mobile, and API.
+
+            • Defined and implemented a QA strategy for Web, Mobile, and API.
+
+            • Executed performance and load testing for all microservices and processing pipelines.
+
+      - layout: left
+        title: Herbalife
+        link: herbalife.com
+        # link_text: boringcompany.com
+        sub_title: QA Automation Engineer
+        caption: March 2018 - January 2019
+        quote: >
+          Herbalife Nutrition is a global multi-level marketing corporation that develops and sells nutritional products, including health-and-wellness supplements for weight management, personal care, general wellness, and sports performance.
+        description: | # this will include new lines to allow paragraphs
+            Activities Performed:
+
+            • Established a test automation framework from scratch for Web applications. 
+
+            • Coordinated automation efforts across different teams.
+
+      - layout: left
+        title: IBM
+        link: ibm.com
+        # link_text: boringcompany.com
+        sub_title: Test Specialist - Performance and Capacity Management
+        caption: April 2013 - November 2013
+        quote: >
+          IBM produces and sells computer hardware, middleware, and software, and provides hosting and consulting services in areas ranging from mainframe computers to nanotechnology.
+        description: | # this will include new lines to allow paragraphs
+            Activities Performed:
+
+            • Assured ongoing compliance with quality and design requirements. 
+
+            • Manual and automation testing for Web applications.
+
+            • Test planning and execution.
+
+      - layout: left
+        title: Pinnacle Aerospace
+        link: pinnacleaerospace.com
+        # link_text: boringcompany.com
+        sub_title: Software Engineer
+        caption: January 2012 - April 2013
+        quote: >
+          Pinnacle Aerospace offers full life cycle support for all DO-178, DO-254, or equivalent mission-critical software applications.
+        description: | # this will include new lines to allow paragraphs
+            Activities Performed:
+
+            • Desktop and web application development.
+
+            • Automated testing for Embedded and Web applications.
+
+
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: ITESCA
+        caption: 2006 - 2010
+        sub_title: BS Computer Science
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        # description: | # this will include new lines to allow paragraphs
+        #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+        #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in technology and software engineering some of my other interests and hobbies are:
+      - Music
+      - Travel
+      - MMA
+      - Gaming
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
