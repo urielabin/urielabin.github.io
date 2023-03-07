@@ -59,7 +59,7 @@ content:
         link: github.com/urielabin/wdio-supertest
       - layout: top-middle
         title: E2E automation with Cypress
-        link: github.com/urielabin/appium-test
+        link: github.com/urielabin/drypto-test
       - layout: top-middle
         title: E2E automation for Frontend/API with TestCafe & Newman
         link: github.com/urielabin/testcafe-newman
