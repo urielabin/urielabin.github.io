@@ -144,11 +144,11 @@ content:
         description: | # this will include new lines to allow paragraphs
             Activities Performed:
 
-            • Led and coordinated the QA strategy across different development teams.
+            • Established QA strategy and processes from scratch. 
 
-            • Established the E2E framework for UI and API testing.
+            • Established Test Architecture for Web, Mobile, and API. 
 
-            • Integrated continuous testing into CI/CD pipelines.
+            • Implemented continuous testing into the CI/CD pipelines.
 
       - layout: left
         title: Skycatch
